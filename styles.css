@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+/* @import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon); */
 
 body {
   min-height: 100vh;
@@ -63,6 +63,7 @@ header img {
   margin: 0.2rem auto;
   border-radius: 20px;
   display: flex;
+
 }
 
 .contenedor-barra div {
@@ -83,3 +84,5 @@ header img {
   height: 100%;
   background-color: yellow;
 }
+
+

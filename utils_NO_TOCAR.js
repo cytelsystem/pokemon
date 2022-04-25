@@ -13,12 +13,8 @@ function createPokemonCard(pokemon, order) {
   cardContainer.className = "card";
 
   cardContainer.innerHTML = `
-    <img
-      src="..."
-      class="card-img-top"
-      alt="pokemon-${order}"
-      id="imagen-pokemon-${order}"
-    />
+    <img src="..." class="card-img-top" alt="pokemon-${order}" id="imagen-pokemon-${order}"/>
+    
     <div class="card-body">
       <h5 class="card-title" id="nombre-pokemon-${order}">${pokemon.toUpperCase()}</h5>
       <p class="card-text">Skills</p>
